@@ -1,0 +1,5 @@
+const Trending = () => {
+    return (
+        div
+    )
+}

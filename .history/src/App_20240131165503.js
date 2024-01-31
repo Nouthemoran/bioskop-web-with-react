@@ -1,0 +1,16 @@
+
+import './App.css';
+import NavigationBar from './components/NavigationBar';
+import "./style/landingPage.css";
+
+function App() {
+  return (
+       {/* end of intro */}
+    <div className="myBG">
+      <NavigationBar/>
+    </div>
+    {/* end of intro */}
+  );
+}
+
+export default App;
