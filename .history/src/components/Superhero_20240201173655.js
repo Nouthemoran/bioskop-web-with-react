@@ -14,7 +14,7 @@ const Trending = () => {
                 <h1 className="text-white">TRENDING MOVIES</h1>
                 <br />
                 <Row>
-                    <Col md={4} className="movieWrapper" id="trending">
+                    <Col md={4} className="movieWrapper">
                     <Card className="  movieImage">
       <Image src={duneImage} alt="Dune Movies" className="trendingImages"/>
       <div className="bg-dark">

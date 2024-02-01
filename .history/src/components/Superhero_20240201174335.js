@@ -1,22 +1,22 @@
 import { Card, Container, Image, Row, Col } from "react-bootstrap" 
-import duneImage from "../assets/images/trending/dune.jpg"
-import everything from "../assets/images/trending/everything.jpg"
-import infinite from "../assets/images/trending/infinite.jpg"
-import joker from "../assets/images/trending/joker.jpg"
-import lightyear from "../assets/images/trending/lightyear.jpg"
-import morbius from "../assets/images/trending/morbius.jpg"
+import antman from "../assets/images/superhero/antman.jpg"
+import avenger from "../assets/images/superhero/avenger.jpg"
+import batman from "../assets/images/superhero/batman.jpg"
+import robinhood from "../assets/images/superhero/robinhood.jpg"
+import spiderman from "../assets/images/superhero/spiderman-cover.jpg"
+import superman from "../assets/images/superhero/superman.jpg"
 
-const Trending = () => {
+const SuperHero = () => {
     return (
         <div>
             <Container>
                 <br />
-                <h1 className="text-white">TRENDING MOVIES</h1>
+                <h1 className="text-white">SUPERHERO MOVIES</h1>
                 <br />
                 <Row>
-                    <Col md={4} className="movieWrapper" id="trending">
+                    <Col md={4} className="movieWrapper">
                     <Card className="  movieImage">
-      <Image src={duneImage} alt="Dune Movies" className="trendingImages"/>
+      <Image src={antman} alt="Dune Movies" className="trendingImages"/>
       <div className="bg-dark">
         <div className="p-2 m-1 text-white">
         <Card.Title className="text-center">Card title</Card.Title>
@@ -31,7 +31,7 @@ const Trending = () => {
                     </Col>
                     <Col md={4} className="movieWrapper">
                     <Card className="  movieImage">
-      <Image src={everything} alt="Dune Movies" className="trendingImages"/>
+      <Image src={avenger} alt="Dune Movies" className="trendingImages"/>
       <div className="bg-dark">
         <div className="p-2 m-1 text-white">
         <Card.Title className="text-center">Card title</Card.Title>
@@ -46,7 +46,7 @@ const Trending = () => {
                     </Col>
                     <Col md={4} className="movieWrapper">
                     <Card className="  movieImage">
-      <Image src={infinite} alt="Dune Movies" className="trendingImages"/>
+      <Image src={batman} alt="Dune Movies" className="trendingImages"/>
       <div className="bg-dark">
         <div className="p-2 m-1 text-white">
         <Card.Title className="text-center">Card title</Card.Title>
@@ -61,7 +61,7 @@ const Trending = () => {
                     </Col>
                     <Col md={4} className="movieWrapper">
                     <Card className="  movieImage">
-      <Image src={joker} alt="Dune Movies" className="trendingImages"/>
+      <Image src={robinhood} alt="Dune Movies" className="trendingImages"/>
       <div className="bg-dark">
         <div className="p-2 m-1 text-white">
         <Card.Title className="text-center">Card title</Card.Title>
@@ -76,7 +76,7 @@ const Trending = () => {
                     </Col>
                     <Col md={4} className="movieWrapper">
                     <Card className="  movieImage">
-      <Image src={lightyear} alt="Dune Movies" className="trendingImages"/>
+      <Image src={spiderman} alt="Dune Movies" className="trendingImages"/>
       <div className="bg-dark">
         <div className="p-2 m-1 text-white">
         <Card.Title className="text-center">Card title</Card.Title>
@@ -91,7 +91,7 @@ const Trending = () => {
                     </Col>
                     <Col md={4} className="movieWrapper">
                     <Card className="  movieImage">
-      <Image src={morbius} alt="Dune Movies" className="trendingImages"/>
+      <Image src={superman} alt="Dune Movies" className="trendingImages"/>
       <div className="bg-dark">
         <div className="p-2 m-1 text-white">
         <Card.Title className="text-center">Card title</Card.Title>
@@ -111,4 +111,4 @@ const Trending = () => {
     )
 }
 
-export default Trending;
+export default SuperHero;

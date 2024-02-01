@@ -17,9 +17,7 @@ function App() {
       <Trending/>
     </div>
 
-    <div className="superhero">
-      <SuperHero/>
-    </div>
+    
     
     </div>
 

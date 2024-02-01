@@ -11,14 +11,11 @@ function App() {
     <div className="myBG">
       <NavigationBar/>
       <Intro/>
+      <
     </div>
     
     <div className="trending">
       <Trending/>
-    </div>
-
-    <div className="superhero">
-      <SuperHero/>
     </div>
     
     </div>

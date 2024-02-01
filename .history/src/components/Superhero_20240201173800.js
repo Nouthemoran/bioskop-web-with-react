@@ -1,12 +1,12 @@
 import { Card, Container, Image, Row, Col } from "react-bootstrap" 
-import duneImage from "../assets/images/trending/dune.jpg"
-import everything from "../assets/images/trending/everything.jpg"
-import infinite from "../assets/images/trending/infinite.jpg"
-import joker from "../assets/images/trending/joker.jpg"
-import lightyear from "../assets/images/trending/lightyear.jpg"
-import morbius from "../assets/images/trending/morbius.jpg"
+import duneImage from "../assets/images/superhero/d"
+import everything from "../assets/images/superhero/eng.jpg"
+import infinite from "../assets/images/superhero/i.jpg"
+import joker from "../assets/images/superhero/jg"
+import lightyear from "../assets/images/superhero/lr.jpg"
+import morbius from "../assets/images/superhero/mjpg"
 
-const Trending = () => {
+const SuperHero = () => {
     return (
         <div>
             <Container>
@@ -14,7 +14,7 @@ const Trending = () => {
                 <h1 className="text-white">TRENDING MOVIES</h1>
                 <br />
                 <Row>
-                    <Col md={4} className="movieWrapper" id="trending">
+                    <Col md={4} className="movieWrapper">
                     <Card className="  movieImage">
       <Image src={duneImage} alt="Dune Movies" className="trendingImages"/>
       <div className="bg-dark">

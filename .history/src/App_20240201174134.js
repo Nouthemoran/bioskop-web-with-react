@@ -16,10 +16,6 @@ function App() {
     <div className="trending">
       <Trending/>
     </div>
-
-    <div className="superhero">
-      <SuperHero/>
-    </div>
     
     </div>
 

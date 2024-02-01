@@ -18,7 +18,7 @@ function App() {
     </div>
 
     <div className="superhero">
-      <SuperHero/>
+      
     </div>
     
     </div>
